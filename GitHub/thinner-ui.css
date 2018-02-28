@@ -1,0 +1,19 @@
+@-moz-document url-prefix("https://github.com/") {
+/* Seems to work for all GitHub pages.
+ * By default, GitHub's UI stops shrinking around 980px or something.
+ * With this stylesheet, the UI will shrink down to about 800px, thin
+ * 	enough to be displayed on one-half of a 1680px wide screen.
+ */
+
+@media screen and ( max-width: 1000px) {
+    body {
+        min-width: 800px;
+    }
+    .container {
+        width: inherit !important;
+        max-width: 980px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
+}
