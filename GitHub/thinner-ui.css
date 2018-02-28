@@ -1,4 +1,4 @@
-@-moz-document url-prefix("https://github.com/") {
+@-moz-document domain("github.com") {
 /* Seems to work for all GitHub pages.
  * By default, GitHub's UI stops shrinking around 980px or something.
  * With this stylesheet, the UI will shrink down to about 800px, thin
