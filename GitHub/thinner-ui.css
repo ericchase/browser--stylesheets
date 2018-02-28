@@ -5,6 +5,7 @@
  * 	enough to be displayed on one-half of a 1680px wide screen.
  */
 
+/*CSS*/
 @media screen and ( max-width: 1000px) {
     body {
         min-width: 800px;
@@ -16,4 +17,5 @@
         margin-left: 10px;
     }
 }
+/*CSS*/
 }
