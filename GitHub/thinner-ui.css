@@ -17,5 +17,16 @@
         margin-left: 10px;
     }
 }
+@media screen and (max-width: 1600px) {
+    body {
+        min-width: 780px;
+    }
+    .container {
+        width: inherit !important;
+        max-width: 750px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+}
 /*CSS*/
 }
