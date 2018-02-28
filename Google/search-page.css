@@ -1,4 +1,4 @@
-@-moz-document domain("www.google.com") {
+@-moz-document domain("google.com") {
 /* Google's default colors for links are atrocious.
  * Perhaps it's a Chrome issue, but either way, a problem exists.
  * This changes the colors for unvisited and visited links to
