@@ -6,24 +6,15 @@
  */
 
 /*CSS*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 944px) {
     body {
+        min-width: 100%;
+    }
+    header {
         min-width: 800px;
     }
     .container {
         width: inherit !important;
-        max-width: 980px;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
-}
-@media screen and (max-width: 1600px) {
-    body {
-        min-width: 780px;
-    }
-    .container {
-        width: inherit !important;
-        max-width: 750px;
         margin-right: 10px;
         margin-left: 10px;
     }
