@@ -1,25 +1,32 @@
 Title: GitHub Thinner Ui
 
-@-moz-document domain("github.com") {
-/* Seems to work for all GitHub pages.
- * By default, GitHub's UI stops shrinking around 980px or something.
- * With this stylesheet, the UI will shrink down to about 800px, thin
- *  enough to be displayed on one-half of a 1680px wide screen.
- */
+@-moz-document regexp(".*?github\\.com/.*?/.*"), regexp(".*?github\\.com/") {
+/* Home Page /*
+/* Repositories */
+/* For 1600px wide screens. */
 
-/*CSS*/
 @media screen and (max-width: 1036px) {
-    body {
-        min-width: 100%;
-    }
-    header {
-        min-width: 800px;
-    }
-    .container {
-        width: inherit !important;
-        margin-right: 20px;
-        margin-left: 20px;
-    }
+  body {
+    min-width: 767px;
+  }
+  .container {
+    width: inherit !important;
+    max-width: 1020px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
 }
-/*CSS*/
+@media screen and (max-width: 810px) {
+  .header-search {
+    max-width: 270px;
+  }
+}
+}
+
+@-moz-document regexp(".*?github\\.com/") {
+/* Home Page */
+.css-truncate.css-truncate-target,
+.css-truncate .css-truncate-target {
+  white-space: inherit !important;
+}
 }
