@@ -1,5 +1,14 @@
-.style-pack-vintage.page article,
-body {
-    background-color: unset !important;
-    color: unset !important;
+/* ==UserStyle==
+@name           sadhoovysinhumantranslations.wordpress.com
+@description    7/27/2022, 11:58:57 PM
+@namespace      ericchase
+@version        1.0.0
+@author         ericchase
+==/UserStyle== */
+@-moz-document domain("sadhoovysinhumantranslations.wordpress.com") {
+    .style-pack-vintage.page article,
+    body {
+        background-color: unset !important;
+        color: unset !important;
+    }
 }
