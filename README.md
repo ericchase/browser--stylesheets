@@ -1,15 +1,15 @@
 # stylesheets
-Style-sheets for use with the Stylish extension to modify the styles of existing webpages.
+Style-sheets for use with the Stylus extension to modify the styles of existing webpages.
 
 ### usage
-To use these, please install a css-injection extension for your browser.<br/>
-Any lines with **@-moz-document** contains information for the *Stylish* extension.<br/>
-They are used for easy importing, and are not part of the CSS.<br/>
-If using a different extension, remove those lines first.<br/>
-For extra clarity, I will surround the actual CSS code with comments.
+To use these, please install a css-injection extension for your browser.  
+I now use the Stylus extension to manage my stylesheets.  
+After installing Stylus, open any of the stylesheets in Raw mode.  
+The stylesheet manager should recognize the file extension and prompt you for installation of the stylesheet.
 
 ### extension
-The Stylish extension for Google Chrome can be found here: [Stylish - Custom themes for any website](https://chrome.google.com/webstore/detail/stylish-custom-themes-for/fjnbnpbmkenffdnngjfgmeleoegfcffe?utm_source=chrome-app-launcher-info-dialog)
+[Stylus for Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)  
+[Stylus for Chrome](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en)
 
 ### please
 Use these stylesheets and feel free to share them.<br/>
