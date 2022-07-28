@@ -6,10 +6,12 @@
 @author         ericchase
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.google.com/search?") {
-    #rso > div a {
+    #rso a,
+    #rso a div[role="link"] {
         color: Blue !important;
     }
-    #rso > div a:visited {
+    #rso a:visited,
+    #rso a:visited div[role="link"] {
         color: Tomato !important;
     }
 }
