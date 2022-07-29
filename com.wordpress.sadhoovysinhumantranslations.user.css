@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name           sadhoovysinhumantranslations.wordpress.com
+@name           com.wordpress.sadhoovysinhumantranslations
 @description    3/31/2022
-@namespace      ericchase
+@namespace      https://github.com/ericchase/browser--stylesheets
 @version        1.0.0
 @author         ericchase
 ==/UserStyle== */
@@ -10,5 +10,10 @@
     body {
         background-color: unset !important;
         color: unset !important;
+    }
+
+    #actionbar,
+    #comments {
+        display: none;
     }
 }

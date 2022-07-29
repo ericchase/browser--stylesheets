@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           com.wordpress.confusedtls
+@description    7/28/2022
+@namespace      https://github.com/ericchase/browser--stylesheets
+@version        1.0.0
+@author         ericchase
+==/UserStyle== */
+@-moz-document domain("confusedtls.wordpress.com") {
+    body {
+        color: unset;
+    }
+
+    #actionbar,
+    #comments,
+    #secondary {
+        display: none;
+    }
+}
