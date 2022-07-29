@@ -1,11 +1,11 @@
 /* ==UserStyle==
-@name           com.google - link colors
+@name           link colors
 @description    3/17/2018
 @namespace      https://github.com/ericchase/browser--stylesheets
 @version        1.0.0
 @author         ericchase
 ==/UserStyle== */
-@-moz-document domain("www.google.com") {
+@-moz-document domain("google.com") {
     #rso a {
         color: Blue !important;
     }
