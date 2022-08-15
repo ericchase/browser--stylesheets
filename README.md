@@ -2,9 +2,9 @@
 Style-sheets for use with the Stylus extension to modify the styles of existing webpages.
 
 ### usage
-To use these, please install a css-injection extension for your browser.  
-I now use the Stylus extension to manage my stylesheets.  
-After installing Stylus, open any of the stylesheets in Raw mode.  
+To use these, please install a stylesheet injection extension for your browser.  
+I use the Stylus extension to manage my stylesheets.  
+After installing a manager, open any of the stylesheets here in GitHub, and press the 'Raw' button.
 The stylesheet manager should recognize the file extension and prompt you for installation of the stylesheet.
 
 ### extension
