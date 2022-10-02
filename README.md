@@ -1,6 +1,8 @@
 # stylesheets
 Stylesheets for use with the Stylus extension to modify the styles of existing webpages.
 
+[Static Listing](https://ericchase.github.io/browser--stylesheets/)
+
 ### usage
 To use these, please install a stylesheet injection extension for your browser.  
 I use the Stylus extension to manage my stylesheets.  
