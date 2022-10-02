@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           content width (com.wordpress.confusedtls)
-@description    7/28/2022
-@namespace      https://github.com/ericchase/browser--stylesheets
-@version        1.0.1
-@author         ericchase
+@name        content width (com.wordpress.confusedtls)
+@namespace   ericchase
+@version     1.0.2
+@description 7/28/2022
+@homepageURL https://github.com/ericchase/browser--stylesheets
 ==/UserStyle== */
 @-moz-document domain("confusedtls.wordpress.com") {
     .content-area {
