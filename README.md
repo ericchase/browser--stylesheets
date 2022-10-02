@@ -1,5 +1,5 @@
 # stylesheets
-Style-sheets for use with the Stylus extension to modify the styles of existing webpages.
+Stylesheets for use with the Stylus extension to modify the styles of existing webpages.
 
 ### usage
 To use these, please install a stylesheet injection extension for your browser.  
