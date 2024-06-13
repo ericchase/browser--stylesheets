@@ -43,7 +43,7 @@
   ytd-comments#comments:not(#fakeid) {
     border-radius: 1em;
   }
-  div#contents.style-scope.ytd-rich-grid-renderer {
-    background-color: transparent !important;
+  div#contents:not(#fakeid) {
+    background-color: transparent;
   }
 }
