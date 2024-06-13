@@ -6,12 +6,12 @@
 @homepageURL https://github.com/ericchase/browser--stylesheets
 ==/UserStyle== */
 @-moz-document domain("confusedtls.wordpress.com") {
-    body {
-        color: unset;
-    }
-    #actionbar,
-    #comments,
-    #secondary {
-        display: none;
-    }
+  body {
+    color: unset;
+  }
+  #actionbar,
+  #comments,
+  #secondary {
+    display: none;
+  }
 }

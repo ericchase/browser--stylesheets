@@ -6,13 +6,13 @@
 @homepageURL https://github.com/ericchase/browser--stylesheets
 ==/UserStyle== */
 @-moz-document domain("sadhoovysinhumantranslations.wordpress.com") {
-    .style-pack-vintage.page article,
-    body {
-        background-color: unset !important;
-        color: unset !important;
-    }
-    #actionbar,
-    #comments {
-        display: none;
-    }
+  .style-pack-vintage.page article,
+  body {
+    background-color: unset !important;
+    color: unset !important;
+  }
+  #actionbar,
+  #comments {
+    display: none;
+  }
 }

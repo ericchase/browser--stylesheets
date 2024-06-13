@@ -6,10 +6,10 @@
 @homepageURL https://github.com/ericchase/browser--stylesheets
 ==/UserStyle== */
 @-moz-document domain("google.com") {
-    #rso a {
-        color: Blue !important;
-    }
-    #rso a:visited {
-        color: Tomato !important;
-    }
+  #rso a {
+    color: Blue !important;
+  }
+  #rso a:visited {
+    color: Tomato !important;
+  }
 }

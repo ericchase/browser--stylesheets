@@ -1,0 +1,49 @@
+/* ==UserStyle==
+@name           YouTube Old Layout
+@description    2/3/2023, 10:35:32 PM
+@version        1.0.0
+@namespace      ericchase
+@author         ericchase
+==/UserStyle== */
+@-moz-document domain("youtube.com") {
+  /* hide invisible layers that consume mouse events */
+  .video-stream.html5-main-video,
+  .ytp-iv-video-content {
+    pointer-events: none;
+  }
+
+  /* hide the youtube premium popup? */
+  ytd-popup-container {
+    display: none;
+  }
+
+  /* somewhat revert the new layout to old layout */
+  div#primary:not(#fakeid),
+  div#secondary:not(#fakeid) {
+    width: unset;
+    min-width: unset;
+    max-width: unset;
+    padding-inline: 1em;
+  }
+  div#primary:not(#fakeid) {
+    order: 1;
+  }
+  div#secondary:not(#fakeid) {
+    width: 75vw;
+  }
+  div#below:not(#fakeid) {
+    display: flex;
+    flex-direction: column;
+  }
+  div#bottom-grid:not(#fakeid) {
+    order: 1;
+  }
+
+  /* some style tweaks */
+  ytd-comments#comments:not(#fakeid) {
+    border-radius: 1em;
+  }
+  div#contents.style-scope.ytd-rich-grid-renderer {
+    background-color: transparent !important;
+  }
+}
