@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name        *: Unset Overflows
+@namespace   ericchase
+@version     1.0.0
+@description 12/22/2022, 2:14:58 PM
+@homepageURL https://github.com/ericchase/browser--stylesheets
+==/UserStyle== */
+@-moz-document regexp(".*://.*/.*")
+{
+  * {
+    overflow: unset !important;
+  }
+}
