@@ -1,9 +1,9 @@
 /* ==UserStyle==
-@name           com.youtube: YouTube Old Layout
-@description    2/3/2023, 10:35:32 PM
-@version        1.0.1
-@namespace      ericchase
-@author         ericchase
+@name        com.youtube: YouTube Old Layout
+@namespace   ericchase
+@version     1.0.2
+@description 2/3/2023, 10:35:32 PM
+@homepageURL https://github.com/ericchase/browser--stylesheets
 ==/UserStyle== */
 @-moz-document url-prefix("https://www.youtube.com/watch")
 {
