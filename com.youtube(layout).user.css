@@ -5,7 +5,8 @@
 @namespace      ericchase
 @author         ericchase
 ==/UserStyle== */
-@-moz-document domain("youtube.com") {
+@-moz-document url-prefix("https://www.youtube.com/watch")
+{
   /* hide invisible layers that consume mouse events */
   .video-stream.html5-main-video,
   .ytp-iv-video-content {
@@ -45,5 +46,28 @@
   }
   div#contents:not(#fakeid) {
     background-color: transparent;
+  }
+
+  /* goal: don't hide comments when description is expanded */
+  div#secondary-inner > :not(#fakeid) {
+    animation: unset;
+  }
+  #panels:not(#fakeid) > ytd-engagement-panel-section-list-renderer {
+    position: unset;
+    height: unset;
+    padding-bottom: 2em;
+  }
+  ytd-watch-grid:not([is-two-columns_])[panel-expanded] ytd-comments.ytd-watch-grid,
+  ytd-watch-grid:not([is-two-columns_])[panel-expanded] #bottom-grid.ytd-watch-grid {
+    display: block;
+  }
+  ytd-watch-grid:not([is-two-columns_])[panel-expanded] #fixed-below.ytd-watch-grid {
+    position: unset;
+    height: unset;
+  }
+  ytd-watch-grid[panel-expanded]:not([swatcheroo-binary-layout])[full-bleed-player] #secondary-inner.ytd-watch-grid,
+  ytd-watch-grid[panel-expanded]:not([is-two-columns_]) #secondary-inner.ytd-watch-grid,
+  ytd-watch-grid[panel-expanded][default-two-column-layout] #secondary-inner.ytd-watch-grid {
+    animation: unset;
   }
 }
