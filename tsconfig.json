@@ -12,11 +12,6 @@
     // Best practices
     "strict": true,
     "skipLibCheck": true,
-    "noFallthroughCasesInSwitch": true,
-
-    "allowImportingTsExtensions": true,
-    "allowJs": true,
-    "noEmit": true
-  },
-  "exclude": ["node_modules", "*.config.ts"]
+    "noFallthroughCasesInSwitch": true
+  }
 }

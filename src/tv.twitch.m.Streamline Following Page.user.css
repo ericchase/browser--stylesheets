@@ -1,0 +1,38 @@
+/* ==UserStyle==
+@name        tv.twitch.m: Streamline Following Page
+@namespace   ericchase
+@version     0.0.1
+@description 8/2/2024
+@homepageURL https://github.com/ericchase/browser--stylesheets
+==/UserStyle== */
+@-moz-document url-prefix("https://m.twitch.tv/directory/following/live")
+{
+  #root:not(#fake) > div {
+    display: none !important;
+  }
+  main:not(#fake),
+  main:not(#fake) > div {
+    padding-top: 0 !important;
+  }
+  main:not(#fake) > div > h2,
+  main:not(#fake) > div > div {
+    display: none !important;
+  }
+  main:not(#fake) > div > h2:nth-of-type(2),
+  main:not(#fake) > div > div:nth-of-type(2) {
+    display: unset !important;
+  }
+
+  .tw-grid > .tw-col:nth-of-type(1) {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .tw-grid > .tw-col:nth-of-type(2) {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .tw-grid > .tw-col img {
+    width: 100%;
+    height: auto;
+  }
+}
