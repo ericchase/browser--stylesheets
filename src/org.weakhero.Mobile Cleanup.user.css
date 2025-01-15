@@ -17,4 +17,7 @@
   .post-navigation {
     position: unset !important;
   }
+  .code-block {
+    display: none !important;
+  }
 }
