@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        tv.twitch.m: Streamline Following Page
 @namespace   ericchase
-@version     1.1.1
+@version     1.1.2
 @description 8/2/2024, 5:41 PM
 @homepageURL https://github.com/ericchase/browser--stylesheets
 ==/UserStyle== */
@@ -21,11 +21,16 @@
           margin: 0 !important;
           padding: 0 !important;
         }
+        margin: 0 !important;
+        padding: 0 !important;
       }
       & > div:not(:first-of-type) {
         display: none !important;
       }
+      margin: 0 !important;
+      padding: 0 !important;
     }
+    margin: 1em !important;
   }
   .tw-grid > .tw-col:nth-of-type(1) {
     flex: 0 0 60%;
